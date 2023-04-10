@@ -19,14 +19,14 @@
             "name": "[parameters('name')]",
             "type": "microsoft.insights/components",
             "location": "[parameters('regionId')]",
-            "apiVersion": "2020-02-02-preview",
+            "apiVersion": "2020-02-02",
             "dependsOn": [],
             "properties": {
                 "ApplicationId": "[parameters('name')]",
                 "Application_Type": "[parameters('type')]",
                 "Flow_Type": "Redfield",
-                "RetentionInDays": 30,
-                "SamplingPercentage": 50
+                "SamplingPercentage": 50,
+                "RetentionInDays": 30
             }
         }
     ]
