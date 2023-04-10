@@ -20,6 +20,6 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/sajatovm/ARMTemplates/main/appinsights_template_creation_classic.json'
-    overrideParameters: '-projectName MyArmProjectName'
+    overrideParameters: '-name MyArmProjectName'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
