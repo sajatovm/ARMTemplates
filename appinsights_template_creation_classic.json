@@ -25,7 +25,8 @@
                 "ApplicationId": "[parameters('name')]",
                 "Application_Type": "[parameters('type')]",
                 "Flow_Type": "Redfield",
-                "RetentionInDays": 30
+                "RetentionInDays": 30,
+                "SamplingPercentage": 50
             }
         }
     ]
