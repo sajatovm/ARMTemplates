@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'armDeploymentResGroup'
     location: 'West Europe'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/sajatovm/ARMTemplates/main/appinsights_template_creation_classic.json?token=GHSAT0AAAAAACBHPYFY6IJOTFQ5QXMBEX6YZBUOXJQ'
+    csmFileLink: 'https://raw.githubusercontent.com/sajatovm/ARMTemplates/main/appinsights_template_creation_classic.json'
     overrideParameters: '-projectName MyArmProjectName'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
