@@ -24,7 +24,8 @@
             "properties": {
                 "ApplicationId": "[parameters('name')]",
                 "Application_Type": "[parameters('type')]",
-                "Flow_Type": "Redfield"
+                "Flow_Type": "Redfield",
+                "RetentionInDays": 30
             }
         }
     ]
