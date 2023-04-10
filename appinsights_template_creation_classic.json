@@ -19,7 +19,7 @@
             "name": "[parameters('name')]",
             "type": "microsoft.insights/components",
             "location": "[parameters('regionId')]",
-            "apiVersion": "2014-08-01",
+            "apiVersion": "2020-02-02-preview",
             "dependsOn": [],
             "properties": {
                 "ApplicationId": "[parameters('name')]",
